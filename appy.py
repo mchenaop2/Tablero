@@ -12,7 +12,7 @@ drawing_mode = "freedraw"
 
 bg_color = '#000000'
 with st.sidebar:
-    stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
+    stroke_width = st.slider('Selecciona el ancho de línea', 5, 50, 50)
     stroke_color = st.color_picker("Pick A Color", "#00f900")
     
 
